@@ -1,0 +1,6 @@
+-- REMOVE THE COLUMN
+ALTER TABLE person DROP gender;
+
+-- ADD CONSTRAINTS
+UPDATE person SET pronoun='' WHERE pronoun IS NULL;
+ALTER TABLE person MODIFY pronoun VARCHAR(5000) NOT NULL;
