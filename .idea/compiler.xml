@@ -6,18 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="a.revilla.2022 (1)" />
         <module name="spring-boot-sample-flyway" />
         <module name="a.revilla.2022" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="a.revilla.2022" target="1.8" />
+      <module name="a.revilla.2022 (1)" target="1.8" />
       <module name="spring-boot-sample-flyway" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="a.revilla.2022" options="-parameters" />
+      <module name="a.revilla.2022 (1)" options="-parameters" />
       <module name="spring-boot-sample-flyway" options="-parameters" />
     </option>
   </component>
