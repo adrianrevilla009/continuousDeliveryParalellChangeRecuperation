@@ -1,0 +1,2 @@
+# continuousDeliveryParalellChangeRecuperation
+Paralell technique for continuous delivery recuperation
