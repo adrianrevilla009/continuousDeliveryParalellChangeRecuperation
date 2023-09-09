@@ -30,6 +30,8 @@ public class Person {
 	private String lastName;
 	private String gender;
 
+	private String pronoun;
+
 	public String getFirstName() {
 		return this.firstName;
 	}
@@ -52,6 +54,15 @@ public class Person {
 
 	public void setGender(String gender) {
 		this.gender = gender;
+	}
+
+	public String getPronoun() {
+		return pronoun != null ? pronoun : gender;
+	}
+
+	public void setPronoun(String pronoun) {
+		this.gender = pronoun;
+		this.pronoun = pronoun;
 	}
 
 	@Override
